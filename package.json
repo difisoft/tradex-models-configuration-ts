@@ -1,0 +1,24 @@
+{
+  "name": "tradex-models-configuration",
+  "version": "1.0.0",
+  "description": "${module}",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "clean": "rimraf coverage build tmp",
+    "build": "npm run clean && tsc -p ."
+  },
+  "author": "hiepnguyen@techx.vn",
+  "license": "ISC",
+  "dependencies": {
+    "@types/uuid": "^3.4.5",
+    "tslib": "^1.10.0",
+    "tradex-models-common": "git+https://developer:Nzc4NTc5ODYyMzg1OmGofXJn7ReTa9rWhuTlRQYzOgO7@bitbucket.tradex.vn/scm/ts/tradex-models-common-ts.git"
+  },
+  "devDependencies": {
+    "@types/node": "^10.14.13",
+    "rimraf": "^2.6.3",
+    "tsutils": "^3.14.1",
+    "typescript": "^3.5.3"
+  }
+}
