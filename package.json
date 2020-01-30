@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "tslib": "^1.10.0",
-    "tradex-models-common": "git+https://developer:OTY1NTEyMzAwMDg1OjzTGBh+yXPGruMub8PTc5apjSN7@bitbucket.tradex.vn/scm/ts/tradex-models-common-ts.git"
+    "tradex-models-common": "git+https://developer:OTY1NTEyMzAwMDg1OjzTGBh+yXPGruMub8PTc5apjSN@bitbucket.tradex.vn/scm/ts/tradex-models-common-ts.git"
   },
   "devDependencies": {
     "@types/node": "^10.14.13",
