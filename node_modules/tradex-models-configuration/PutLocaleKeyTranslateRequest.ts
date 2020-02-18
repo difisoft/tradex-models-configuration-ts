@@ -5,8 +5,6 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-import {BaseRequest} from "tradex-models-common";
-
 import {Language} from "tradex-models-common";
 
 /**
@@ -20,7 +18,3 @@ export type PutLocaleKeyTranslateRequest = BaseRequest & {
   lang?: Language;
   [k: string]: any;
 };
-/**
- * base request for all other
- */
-export type Language = "vi" | "en" | "kr" | "cn" | "th";
