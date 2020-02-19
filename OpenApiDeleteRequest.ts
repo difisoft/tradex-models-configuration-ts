@@ -5,25 +5,15 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
+import {BaseRequest} from "tradex-models-common";
+
 /**
- * request for query list of holiday
+ * openApiDeleteRequest schema
  */
-export type QueryLocaleResponse = {
+export type OpenApiDeleteRequest = BaseRequest & {
   /**
-   * id
+   * list of open api id to delete
    */
-  id?: number;
-  /**
-   * service name
-   */
-  msName?: string;
-  /**
-   * service name
-   */
-  namespaces?: {
-    id?: number;
-    namespace?: string;
-    [k: string]: any;
-  }[];
+  scopeIdList: number[];
   [k: string]: any;
-}[];
+};

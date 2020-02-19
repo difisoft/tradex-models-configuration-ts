@@ -5,25 +5,15 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
+import {BaseRequest} from "tradex-models-common";
+
 /**
- * request for query list of holiday
+ * openApiUpdateRequest schema
  */
-export type QueryLocaleResponse = {
+export type OpenApiUpdateRequest = BaseRequest & {
   /**
-   * id
+   * list of url
    */
-  id?: number;
-  /**
-   * service name
-   */
-  msName?: string;
-  /**
-   * service name
-   */
-  namespaces?: {
-    id?: number;
-    namespace?: string;
-    [k: string]: any;
-  }[];
+  urlList: string[];
   [k: string]: any;
-}[];
+};
